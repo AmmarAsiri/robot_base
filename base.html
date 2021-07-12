@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>RobotBase</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="base.js" type="text/javascript"></script>
+        <link href="base.css" rel="stylesheet" type="text/css"/>
+        
+        <style type="text/css">
+            form {
+                padding-top: 120px;
+                text-align: center;
+                font-size: 30px;
+            }
+            input {
+                width: 250px;
+                height: 40px;
+                font-size: 30;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <form method="POST" action="index.php">
+            <h1>RobotBase</h1>
+            <input type="submit" name="f" value="forward">
+            <br><br>
+            <input type="submit" name="l" value="left">
+            <input type="submit" name="s" value="stop">
+            <input type="submit" name="r" value="right">
+            <br><br>
+            <input type="submit" name="b" value="backward">
+
+        </form>
+    </body>
+</html>
